@@ -2,7 +2,7 @@
 # QUMIN — Quantitative Microscopy Intensity (CZI → masks → metrics)
 
 **What it does (in plain English)**  
-QUMIN loads **.czi** microscope images, creates two masks using thresholds from the image mean and standard deviation, and measures intensities:
+QUMIN loads .czi microscope images, creates two masks using thresholds from the image mean and standard deviation, and measures intensities:
 - **Background-removed** mask: pixels > (mean + *k1*·std)
 - **Aggregates** mask: pixels > (mean + *k2*·std)
 It then measures:
@@ -16,7 +16,7 @@ This repo is a clean, admissions-friendly package built from your original scrip
 
 ---
 
-## 📦 Quickstart (local)
+## Quickstart (local)
 ```bash
 python -m venv .venv && source .venv/bin/activate   # Windows: .venv\Scripts\activate
 pip install -r requirements.txt
@@ -38,7 +38,7 @@ python -m qumin sholl --file sample.czi --red-channel 1
 
 ---
 
-## 🔧 CLI reference
+## CLI reference
 
 ### `quantify`
 ```
@@ -71,7 +71,7 @@ python -m qumin sholl --file sample.czi --red-channel 1 [--lower-k 0.25] [--blur
 
 ---
 
-## 🧪 Tests & CI
+## Tests & CI
 - Unit tests run on array inputs (no microscope files required) so CI is fast and green.
 - GitHub Actions workflow: `.github/workflows/python-tests.yml`
 
