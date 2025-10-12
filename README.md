@@ -77,7 +77,7 @@ python -m qumin sholl --file sample.czi --red-channel 1 [--lower-k 0.25] [--blur
 
 ---
 
-## 📄 License
-Apache-2.0 (see LICENSE)
+## License
+MIT (see LICENSE)
 
 © 2025-10-12
