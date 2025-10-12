@@ -1,0 +1,11 @@
+
+numpy>=1.26
+pandas>=2.2
+matplotlib>=3.8
+seaborn>=0.13
+scipy>=1.11
+scikit-image>=0.23
+czifile>=2019.7.2
+openpyxl>=3.1
+# Optional for Sholl analysis (not needed for tests/CI)
+# skan>=0.11
